@@ -1,5 +1,5 @@
 while True:
-    
+
     a = int(input())
     b = int(input())
 
@@ -8,7 +8,7 @@ while True:
 
     if a < b:
         a, b = b, a
-    
+
     soma = 0
     for i in range(a, b+1):
         print(f'{i} ', end='')
